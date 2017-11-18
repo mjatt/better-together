@@ -21,5 +21,8 @@ function validateForm() {
     for (var i = 0; i < errors.length; i++)
       msg += " - " + errors[i] + "\n";
     alert(msg);
+  } else {
+    alert(`Regsitration success!`)
   }
+
 }
